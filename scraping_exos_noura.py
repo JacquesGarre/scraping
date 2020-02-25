@@ -40,8 +40,6 @@ def get_followers_count(twitter_account):
     followers_count = soup.find('a', {'href': '/'  + twitter_account + '/followers'})['title']
     return followers_count
 
-get_followers_count('U_lookme')
-
 #EX7
 def to_celsius(kelvin):
     return round(kelvin - 273.15, 1)
