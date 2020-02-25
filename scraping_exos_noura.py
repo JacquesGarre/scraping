@@ -67,8 +67,6 @@ def get_weather(city):
     print('description: ', json['weather'][0]['description'])
     print('\n')
 
-# get_weather('Marseille')
-
 
 
 
